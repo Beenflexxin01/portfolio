@@ -452,6 +452,15 @@ textarea {
     gap: 4rem;
   }
 
+  .tech-ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .tech-list {
+    text-align: center;
+  }
+
   .footer-text {
     margin-left: 52%;
   }
