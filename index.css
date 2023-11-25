@@ -8,12 +8,12 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   line-height: 1.8;
-  color: #555;
   scroll-behavior: smooth;
 }
 
 body {
   /* background-color: #1d72c72d; */
+  color: #555;
   background-color: #1d72c717;
   background-color: #000;
   font-family: sans-serif;
@@ -261,7 +261,7 @@ textarea {
 }
 
 .hidden-img {
-  /* display: block; */
+  display: block;
   position: absolute;
   background-color: #000000d3;
   height: 100vh;
@@ -273,15 +273,15 @@ textarea {
 .hidden-img {
   display: flex;
   opacity: 80%;
-  transition: all 1s ease-in-out;
-  transform: scaleX(1.02) translate(1.5px);
+  transition: all 0.7s ease-in-out;
+  transform: scaleX(1.08) translateY(-3px);
   border-radius: 9px;
 }
 
 .hidden-img:hover {
   display: block;
   width: 100%;
-  transform: scale(1);
+  /* transform: scale(1) translateY(-3px); */
 }
 
 .image {
@@ -294,7 +294,7 @@ textarea {
   color: black;
   color: #fff;
   text-align: center;
-  /* margin-top: 7rem; */
+  text-align: justify;
   padding: 3rem;
 }
 
@@ -302,12 +302,32 @@ textarea {
   font-size: 2rem;
   color: #fff;
   text-align: center;
-  padding: 2rem;
-  margin: auto;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  /* margin: auto; */
+}
+
+.text-scroll {
+  padding: 0;
 }
 
 .img-slider {
   margin: 2rem;
+}
+
+.tech-ul {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-around;
+}
+
+.tech-list {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 15px;
+  font-size: 1rem;
+  /* color: #555; */
+  font-weight: 600;
 }
 
 .footer-text {
