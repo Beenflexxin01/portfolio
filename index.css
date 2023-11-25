@@ -461,6 +461,10 @@ textarea {
     text-align: center;
   }
 
+  .text-- {
+    padding: 1rem;
+  }
+
   .footer-text {
     margin-left: 52%;
   }
