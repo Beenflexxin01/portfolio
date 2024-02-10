@@ -12,10 +12,10 @@ html {
 }
 
 body {
-  /* background-color: #1d72c72d; */
+  background-color: #1d72c72d;
   color: #555;
   background-color: #1d72c717;
-  background-color: #000;
+  /* background-color: #000; */
   font-family: sans-serif;
 }
 
@@ -310,6 +310,10 @@ textarea {
 /* .text-scroll {
   padding: 0;
 } */
+
+.b_a {
+  font-size: 1.1rem;
+}
 
 .img-slider {
   margin: 2rem;
