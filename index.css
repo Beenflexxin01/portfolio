@@ -14,8 +14,9 @@ html {
 body {
   background-color: #1d72c72d;
   color: #555;
+  color: #fff;
   background-color: #1d72c717;
-  /* background-color: #000; */
+  background-color: #000;
   font-family: sans-serif;
 }
 
@@ -28,7 +29,7 @@ a {
 }
 
 .container {
-  margin: 2rem 20rem;
+  margin: 2rem 4rem;
   padding: 4rem;
 }
 
@@ -54,6 +55,7 @@ a {
 .main-nav-link:visited {
   font-size: 1.5rem;
   color: #1d72c7;
+  color: #fff;
   font-weight: 600;
 }
 
@@ -100,7 +102,8 @@ a {
 }
 
 .about-section {
-  background-color: #fff;
+  /* background-color: #fff; */
+  color: #fff;
 }
 
 .contacts {
@@ -122,13 +125,13 @@ a {
 }
 
 .contact--icon:hover {
-  background-color: #ffffffc7;
+  background-color: #ffffff;
 }
 
 .contact-icon {
   height: 3rem;
   width: 2.3rem;
-  fill: #1d72c7;
+  color: #fff;
 }
 
 .contact-icon:hover,
@@ -217,13 +220,22 @@ textarea {
   /* border: 1px solid #00000030; */
 }
 
-.project-section {
-  background-color: #fff;
+.project-li {
+  list-style: square inside;
+  line-height: 3;
 }
 
-/* .form-section {
-  background-color: #fff;
-} */
+.project-link {
+  color: #fff;
+  font-size: 2rem;
+}
+
+
+
+.form-section {
+  margin: auto;
+  text-align: center;
+}
 
 .form-ul {
   display: flex;
