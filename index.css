@@ -292,9 +292,9 @@ textarea::placeholder {
 }
 
 @media (max-width: 84em) {
-  body {
+  /* body {
     background-color: green;
-  }
+  } */
 
   .container {
     margin: 10rem;
@@ -310,9 +310,10 @@ textarea::placeholder {
   html {
     font-size: 56.25%;
   }
-  body {
+
+  /* body {
     background-color: rgba(136, 255, 0, 0.168);
-  }
+  } */
 
   input,
   textarea,
@@ -334,10 +335,9 @@ textarea::placeholder {
     font-size: 50%;
   }
 
-  body {
+  /* body {
     background-color: grey;
-    /* background-color: #000; */
-  }
+  } */
 
   .container {
     margin: 5rem;
