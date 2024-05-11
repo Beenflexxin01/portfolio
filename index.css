@@ -230,6 +230,9 @@ textarea::placeholder {
 .pro-btn {
   background-color: transparent;
   margin: 2rem 0;
+  border: none;
+  outline: none;
+  box-shadow: 1px 2px 3px #222;
   padding: 0.5rem;
   transition: all 0.3s linear;
 }
